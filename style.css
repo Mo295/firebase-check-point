@@ -1,0 +1,16 @@
+
+.field{
+    height: 350px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+}
+body{
+    background-image:url(https://images.pexels.com/photos/1227520/pexels-photo-1227520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: cover;
+}
+

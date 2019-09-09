@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset class="field">
+        <legend id="subsc">
+            SUBSCRIBE
+        </legend>
+        <form id="formulaire">
+        <div class="fomulaire">
+            <label> Name : </label> <br> <input type="text" id="name" placeholder="moncef magroun"><br>
+            <label> Phone number: </label> <br> <input type="number" id="number" placeholder="+216 25297527"><br>
+            <label>Email: </label> <br> <input id="email" type="email" placeholder="monsef.magroun@hotmail.com">
+            <br>
+            <label> Uni/School : </label> <br> <input type="text" id="school" placeholder="lycée technique"><br><br>
+            <label> password : </label> <br> <input id="password" type="password" placeholder="************"><br><br>
+            <SELECT id="course" name="course" size="1" >
+                <OPTION value="Web development ">Web development </OPTION>
+                <OPTION value="Gaming"> AI/Data Science </OPTION>
+                <OPTION value="AI/Data Science">Gaming</OPTION>
+            </SELECT>
+            <br>
+            <br>
+           <input type="submit" value="Subscribe">
+         </div>
+     </fieldset>
+    </form>
+</div> 
+<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-database.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
